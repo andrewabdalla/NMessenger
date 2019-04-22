@@ -54,6 +54,7 @@ open class TypingIndicatorContent: ContentNode {
         // imageView.backgroundColor = UIColor.orange
         imageView.contentMode = UIViewContentMode.center
         imageView.clipsToBounds = true
+        imageView.layer.cornerRadius = 10
         imageView.animationImages = images
         imageView.animationDuration = 1
         imageView.startAnimating()
