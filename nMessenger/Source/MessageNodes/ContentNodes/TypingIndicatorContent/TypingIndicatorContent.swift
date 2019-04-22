@@ -53,8 +53,8 @@ open class TypingIndicatorContent: ContentNode {
         let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: images[0].size.width - 1, height: images[0].size.height - 1))
         // imageView.backgroundColor = UIColor.orange
         imageView.contentMode = UIViewContentMode.center
-        imageView.clipsToBounds = true
         imageView.layer.cornerRadius = 10
+        imageView.clipsToBounds = true
         imageView.animationImages = images
         imageView.animationDuration = 1
         imageView.startAnimating()

@@ -208,6 +208,8 @@ open class NMessengerViewController: UIViewController, UITextViewDelegate, NMess
             let isInsideTabBar = (nil != self.tabBarController)
             let tabBarHeight = self.tabBarController?.tabBar.frame.size.height ?? 0
             
+            print("TABS HEIGHT: " + String(describing: tabBarHeight))
+            
             let isKeyboardOffScreen =
                 (newKeyboardLocation?.origin.y >= UIScreen.main.bounds.size.height)
             
